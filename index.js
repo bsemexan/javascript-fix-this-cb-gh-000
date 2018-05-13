@@ -61,6 +61,7 @@ function cool(updateFunction) {
   setTimeout(function() {
     this.decorate(updateFunction)
   }, 2000)
+  updateFunction(status)
 }
 
 function makeDessert() {
